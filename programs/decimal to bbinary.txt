@@ -1,0 +1,14 @@
+# Function to convert decimal number
+def DecimalToBinary(num):
+    if num > 1:
+        DecimalToBinary(num // 2)
+    print( num % 2, end='')
+
+
+if __name__ == '__main__':
+    # decimal value
+    dec_val = int(input("enter the decimal value"))
+
+    # Calling function
+    print("Decimal number in binary is given as:")
+    DecimalToBinary(dec_val)

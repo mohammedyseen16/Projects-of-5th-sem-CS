@@ -1,0 +1,6 @@
+count = 0
+test_str = "yaseen"
+for i in test_str:
+    if i == 'e':
+        count = count + 1
+print("My name is yaseen  : "+ str(count))

@@ -1,0 +1,9 @@
+#largest and smallest of 4 or more
+lst= []
+a=int(input('enter total number'))
+for n in range(1,a+1):
+    b=int(input('enter number'))
+    lst.append(b)
+print("largest of three number :" ,max(lst))
+
+print("smallest of three number :", min(lst))
