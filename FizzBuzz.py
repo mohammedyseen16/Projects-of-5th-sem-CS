@@ -1,5 +1,6 @@
-for fizzbuzz in range(1,16):
-    if fizzbuzz == 15 :
+n=int(input(''))
+for fizzbuzz in range(1,n+1):
+    if fizzbuzz % 15 == 0 :
         print("FizzBuzz")
         continue
 
