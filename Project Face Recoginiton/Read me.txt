@@ -1,0 +1,43 @@
+#################
+
+project face recognition
+
+open file RTS.py
+
+step 1 : Remember path is given in 3rd and 4th line of code 
+              img_location = 'C:/Users/Mohammed Yaseen/Desktop/python/'
+              filename = 'nabil.jpeg'
+
+step 2 : To run the program as per the path is given create a directory in desktop 
+                Add a folder name as python and image file name as nabil.jpg
+
+step 3 : we can make other name of folder or other name for the file else we should change name as according to the path followed...
+
+step 4 : we can run this project in any editor make sure that you have installed all the modules which is given below...
+
+##################################
+
+here are the steps open cmd (command prompt) type  
+   
+1:     -------->  pip install numpy
+
+2:     -------->  pip install imageio
+
+3:     -------->  pip install wheel
+
+4:     -------->  pip install opencv-python
+
+5:     -------->  pip install dlib
+
+6:     -------->  pip install face_recognition
+
+7:     -------->  pip install cmake
+
+#################################
+
+
+if you are using pycharm editor go to settings and install all the above modules
+
+
+
+
